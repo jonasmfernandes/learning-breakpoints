@@ -19,3 +19,44 @@ p {
     right: 0;
     left: 0;
 }
+
+@media (min-width: 0px) and (max-width: 576px){
+    .container {
+        background-color: rgb(12, 219, 92);
+        transition: 2s;
+    }
+    
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        background-color: blue;
+        transition: 2s;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        background-color: crimson;
+        transition: 2s;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 2500px) {
+    .container {
+        background-color: rgb(209, 17, 235);
+        transition: 2s;
+    }
+    p {
+        font-size: 40px;
+    }
+}
